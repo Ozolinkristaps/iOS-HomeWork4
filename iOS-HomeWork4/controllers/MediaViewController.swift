@@ -10,11 +10,9 @@ import UIKit
 
 class MediaViewController: UIViewController {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
-    }
+    @IBOutlet var mediaTableView: UIView!
+    
+    
     
 
     /*

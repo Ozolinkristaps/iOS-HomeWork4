@@ -9,7 +9,8 @@
 import UIKit
 
 class DocumentsViewController: UIViewController {
-
+    @IBOutlet weak var documentTableView: UITableView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 

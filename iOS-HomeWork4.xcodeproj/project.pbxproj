@@ -18,6 +18,7 @@
 		CE32FA49248D8C5900044C9F /* DocumentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE32FA48248D8C5900044C9F /* DocumentsViewController.swift */; };
 		CE32FA4B248D95FD00044C9F /* MediaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE32FA4A248D95FD00044C9F /* MediaViewController.swift */; };
 		CE32FA4D248D960F00044C9F /* PhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE32FA4C248D960F00044C9F /* PhotosViewController.swift */; };
+		CE32FA5324908CAB00044C9F /* GitHubData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE32FA5124908C2300044C9F /* GitHubData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		CE32FA48248D8C5900044C9F /* DocumentsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentsViewController.swift; sourceTree = "<group>"; };
 		CE32FA4A248D95FD00044C9F /* MediaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaViewController.swift; sourceTree = "<group>"; };
 		CE32FA4C248D960F00044C9F /* PhotosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosViewController.swift; sourceTree = "<group>"; };
+		CE32FA5124908C2300044C9F /* GitHubData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +72,7 @@
 				CE32FA2F248D7B5500044C9F /* AppDelegate.swift */,
 				CE32FA33248D7B5500044C9F /* Main.storyboard */,
 				CE32FA44248D877300044C9F /* GitHubUser.swift */,
+				CE32FA5124908C2300044C9F /* GitHubData.swift */,
 				CE32FA46248D879500044C9F /* UIImageView+Downloaded.swift */,
 				CE32FA36248D7B5600044C9F /* Assets.xcassets */,
 				CE32FA38248D7B5600044C9F /* LaunchScreen.storyboard */,
@@ -165,6 +168,7 @@
 				CE32FA4D248D960F00044C9F /* PhotosViewController.swift in Sources */,
 				CE32FA4B248D95FD00044C9F /* MediaViewController.swift in Sources */,
 				CE32FA45248D877300044C9F /* GitHubUser.swift in Sources */,
+				CE32FA5324908CAB00044C9F /* GitHubData.swift in Sources */,
 				CE32FA30248D7B5500044C9F /* AppDelegate.swift in Sources */,
 				CE32FA49248D8C5900044C9F /* DocumentsViewController.swift in Sources */,
 				CE32FA47248D879500044C9F /* UIImageView+Downloaded.swift in Sources */,
