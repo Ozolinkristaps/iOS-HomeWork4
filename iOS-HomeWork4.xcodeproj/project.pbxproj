@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AF4EDA7A2499148100793290 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4EDA792499148100793290 /* ImageViewController.swift */; };
 		CE32FA30248D7B5500044C9F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE32FA2F248D7B5500044C9F /* AppDelegate.swift */; };
 		CE32FA32248D7B5500044C9F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE32FA31248D7B5500044C9F /* ViewController.swift */; };
 		CE32FA35248D7B5500044C9F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE32FA33248D7B5500044C9F /* Main.storyboard */; };
@@ -22,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AF4EDA792499148100793290 /* ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
 		CE32FA2C248D7B5500044C9F /* iOS-HomeWork4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-HomeWork4.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE32FA2F248D7B5500044C9F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE32FA31248D7B5500044C9F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -89,6 +91,7 @@
 				CE32FA4C248D960F00044C9F /* PhotosViewController.swift */,
 				CE32FA31248D7B5500044C9F /* ViewController.swift */,
 				CE32FA48248D8C5900044C9F /* DocumentsViewController.swift */,
+				AF4EDA792499148100793290 /* ImageViewController.swift */,
 			);
 			path = controllers;
 			sourceTree = "<group>";
@@ -166,6 +169,7 @@
 			files = (
 				CE32FA32248D7B5500044C9F /* ViewController.swift in Sources */,
 				CE32FA4D248D960F00044C9F /* PhotosViewController.swift in Sources */,
+				AF4EDA7A2499148100793290 /* ImageViewController.swift in Sources */,
 				CE32FA4B248D95FD00044C9F /* MediaViewController.swift in Sources */,
 				CE32FA45248D877300044C9F /* GitHubUser.swift in Sources */,
 				CE32FA5324908CAB00044C9F /* GitHubData.swift in Sources */,

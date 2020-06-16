@@ -17,6 +17,8 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        
+        print(FileManager.documentsDir())
     }
 
     @IBAction func signIn(_ sender: Any) {
@@ -27,7 +29,9 @@ class ViewController: UIViewController {
         }
         else {
             print("Bad")
-        }
+                        let myTabBar = self.storyboard?.instantiateViewController(withIdentifier: "myTabBar") as! UITabBarController
+            let appDelegate = UIApplication.shared.delegate as! AppDelegate
+            appDelegate.window?.rootViewController = myTabBar        }
     }
     
 }
